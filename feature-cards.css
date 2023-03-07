@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(font/Poppins-Light.ttf);
+    font-weight: 31000;
+}
+@font-face {
+    font-family: poppins;
+    src: url(font/Poppins-Regular.ttf);
+    font-weight: 400;
+    font-weight: 200;
+}
+@font-face {
+    font-family: poppins;
+    src: url(font/Poppins-Bold.ttf);
+    font-weight: 600;
+    font-weight: 500;
+}
+body{
+background-color:  hsl(0, 0%, 98%);
+max-width: 100vw;
+max-height: 100vh;
+}
+.container {
+    padding: 5rem 1.5rem;
+}
+.first-section {
+    text-align: center;
+    /* margin-top: 3rem; */
+    font-family: poppins;
+    font-weight: 600;
+}
+.paragraph {
+    color: hsl(229, 6%, 66%);
+    font-family: poppins;
+    font-weight: 200;
+    margin-top: 0.9rem;
+    margin-bottom: 3rem;
+}
+h1 {
+    font-family: poppins;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 0.35rem;
+}
+h2 {
+    color: hsl(234, 12%, 34%);
+    font-family: poppins;
+    font-weight: 600;
+}
+h3 {
+    color:  hsl(234, 12%, 34%);
+    font-family: poppins;
+    font-weight: 500;
+}
+.very-light-font {
+    max-width: 34rem;
+    margin: 0 auto;
+    padding-top: 0.8rem;
+}
+
+.flex-box {
+    display: flex;
+    gap: 1.8rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.second-colmun {
+    display: flex;
+    gap: 1.3rem;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-bottom: 4rem;*/
+}
+.box {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 2px 3px 15px -3px hsl(229, 6%, 66%);
+    max-width: 24rem;
+    max-height: 18.5rem;
+    min-height: 16rem;
+    padding: 1.3rem;
+    position: relative;
+    border-top: 5px solid;
+}
+
+.img {
+    /* position: absolute;
+    right: 1.5rem;
+    bottom: 1.5rem; */
+    display: block;
+    margin-left: auto;
+}
+
+.first-colmun{
+    border-color:hsl(180, 62%, 55%) ;
+}
+.first-box {
+    border-color:hsl(0, 78%, 62%) ;
+}
+.seconnd-box {
+    border-color:hsl(34, 97%, 64%) ;
+}
+.third-colmun {
+    border-color:hsl(212, 86%, 64%) ;
+}
+@media(max-width:1240px) {
+    .flex-box {
+        display: flex;
+        flex-direction: column;
+        gap: 1.3rem;
+    }
+    .second-colmun {
+        display: flex;
+        flex-direction: row;
+    }
+    /* .third-colmun {
+        margin: -3.85rem;
+        margin-bottom: 5rem;
+    } */
+}
+@media(max-width:840px) {
+    .very-light-font {
+        max-width: 21rem;
+    }
+    .flex-box {
+        display: flex;
+        flex-direction: column;
+        gap: 1.3rem;
+    }
+    .second-colmun {
+        display: flex;
+        flex-direction: column;
+    }
+    /* .third-colmun {
+        margin: -4rem;
+        margin-bottom: 5rem;
+    } */
+}
