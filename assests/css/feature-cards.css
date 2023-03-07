@@ -6,18 +6,18 @@
 
 @font-face {
     font-family: poppins;
-    src: url(font/Poppins-Light.ttf);
+    src: url(../font/Poppins-Light.ttf);
     font-weight: 31000;
 }
 @font-face {
     font-family: poppins;
-    src: url(font/Poppins-Regular.ttf);
+    src: url(../font/Poppins-Regular.ttf);
     font-weight: 400;
     font-weight: 200;
 }
 @font-face {
     font-family: poppins;
-    src: url(font/Poppins-Bold.ttf);
+    src: url(../font/Poppins-Bold.ttf);
     font-weight: 600;
     font-weight: 500;
 }
